@@ -5,9 +5,9 @@ int main()
 	//if문과 switch문의 차이
 	// switch문은 한가지 상황에 여러 경우가 존재할 때 주로 사용 ex)색에 따라 동작을 다르게 한다고 했을 때 사용하면 if문보다 간결해짐
 	
-	int result;
-	int num1;
-	int num2;
+	float result;
+	float num1;
+	float num2;
 	int cal;
 	std::string initial;
 
@@ -28,11 +28,11 @@ int main()
 	{
 		cal = 2;
 	}
-	if (initial == "*")
+	else if (initial == "*")
 	{
 		cal = 3;
 	}
-	if (initial == "/")
+	else if (initial == "/")
 	{
 		cal = 4;
 	}
